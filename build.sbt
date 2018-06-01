@@ -139,6 +139,7 @@ val mavenBloop = project
   .dependsOn(jsonConfig)
   .settings(name := "maven-bloop")
   .settings(BuildDefaults.mavenPluginBuildSettings)
+  .settings(sourcesInBase := false)
 
 val docs = project
   .in(file("website"))
