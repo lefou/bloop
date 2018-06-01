@@ -1,0 +1,12 @@
+# Generated Maven project
+/pom.xml
+.mvn.polyglot
+
+# Zinc temp files
+.cache-main
+
+# Eclipse files
+/.project
+/.classpath
+/.settings/
+
