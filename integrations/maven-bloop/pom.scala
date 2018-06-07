@@ -5,15 +5,15 @@ implicit val scalaVersion = ScalaVersion("2.12.6")
 
 object Deps {
   val scalaLibrary = "org.scala-lang" % "scala-library" % "2.12.6"
-  val bloopConfig = "ch.epfl.scala" %% "bloop-config" % "1.0.0-M10+26-41fe0561"
+  val bloopConfig = "ch.epfl.scala" %% "bloop-config" % "1.0.0-M10+79-97acb2ec+20180606-1250"
   val mavenCore = "org.apache.maven" % "maven-core" % "3.5.2"
   val mavenPluginApi = "org.apache.maven" % "maven-plugin-api" % "3.5.2"
   val mavenPluginAnnotations = "org.apache.maven.plugin-tools" % "maven-plugin-annotations" % "3.5"
   val junit4 = "junit" % "junit" % "4.11"
   val mpCompiler = "org.apache.maven.plugins" % "maven-compiler-plugin" % "3.7.0"
-  val mpScala = "net.alchim31.maven" % "scala-maven-plugin" % "3.3.2"
+  val mpScala = "net.alchim31.maven" % "scala-maven-plugin" % "3.3.3-SNAPSHOT"
   val mpInvoker = "org.apache.maven.plugins" % "maven-invoker-plugin" % "3.0.1"
-  val mpPlugin = "org.apache.maven.plugins" % "maven-plugin-plugin" % "3.5.1"
+  val mpPlugin = "org.apache.maven.plugins" % "maven-plugin-plugin" % "3.5.2"
 }
 
 Model(
